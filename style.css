@@ -21,6 +21,7 @@ html{
     position:fixed;
     bottom:20px;
     right:10px;
+    z-index:2000;
     
 }
 .icon a:link,.icon a:visited{
