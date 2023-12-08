@@ -215,6 +215,13 @@ font-family: 'Ubuntu', sans-serif;
     transition:0.3s;
     box-shadow:4px 4px 50px 1px rgba(0,0,0,0.4);
 }
+.section1 .box1 ul li a:link,.section1 .box1 ul li a:visited{
+     color:rgb(129, 36, 217);
+     text-decoration:none;
+}
+.section1 .box1 ul li a:hover{
+    color:white;
+}
 .section1 .box1 ul li:hover{
  background:rgb(129, 36, 217);
  color:white;
