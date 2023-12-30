@@ -270,7 +270,7 @@ font-family: 'Ubuntu', sans-serif;
  text-decoration:none;
  transition:0.3s;
  width:220px;
- padding:26px 0;
+ height:55px;
  display:flex;
  align_items:center;
 justify-content:center;
