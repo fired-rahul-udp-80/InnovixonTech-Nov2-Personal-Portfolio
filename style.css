@@ -484,6 +484,11 @@ fact section
     letter-spacing:2px;
     line-height:30px;
 }
+@media screen and (max-width:980px){
+    .fact-section .fact-data{
+        font-size:18px;
+    }
+}
 /* .skill-section .g-content::before{
     height:170px;
 } */
