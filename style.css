@@ -465,8 +465,7 @@ fact section
 .fact-section .fact-data{
     display:flex;
     justify-content: space-between;
-    flex-wrap:wrap;
-    
+  
     row-gap:20px;
     background:rgba(138, 43, 226,0.2);
     padding:100px 20px;
@@ -487,6 +486,7 @@ fact section
 @media screen and (max-width:980px){
     .fact-section .fact-data{
         font-size:18px;
+        flex-direction:column;
     }
 }
 /* .skill-section .g-content::before{
