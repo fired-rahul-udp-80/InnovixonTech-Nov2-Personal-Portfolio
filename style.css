@@ -271,6 +271,7 @@ font-family: 'Ubuntu', sans-serif;
  transition:0.3s;
  width:220px;
  padding:26px 0;
+ padding-bottom:26px;
  display:flex;
  align_items:center;
 justify-content:center;
