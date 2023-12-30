@@ -264,13 +264,35 @@ font-family: 'Signika Negative', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 
 }
-.section1 .box1 .download-btn:link,.section1 .box1 .download-btn:visited,.section2 .view-btn:link,.section2 .view-btn:visited{
+.section1 .box1 .download-btn:link,.section1 .box1 .download-btn:visited{
  background:transparent;
  color:white;
  text-decoration:none;
  transition:0.3s;
  width:220px;
- height:55px;
+ padding:26px 0;
+ display:flex;
+ align_items:center;
+justify-content:center;
+ text-align:center;
+ border-radius:50px;
+ border:2px solid transparent;
+ margin-top:20px;
+ box-shadow:4px 4px 50px 1px rgba(0,0,0,0.2);
+ position:relative;
+ overflow:hidden;
+}   
+    
+    
+
+    
+.section2 .view-btn:link,.section2 .view-btn:visited{
+ background:transparent;
+ color:white;
+ text-decoration:none;
+ transition:0.3s;
+ width:220px;
+ padding:26px 0;
  display:flex;
  align_items:center;
 justify-content:center;
