@@ -668,6 +668,7 @@ fact section
     margin-top:4px;
     width:650px;
     font-size:10px;
+    color:white;
     background:rgba(255,255,255,0.1);
 }
 @media screen and (max-width:767px){
