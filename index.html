@@ -247,27 +247,28 @@
             </div><br>
             <div class="row wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col col2">
-                    <form action="">
+                    <form action="https://api.web3forms.com/submit" method="POST">
                     <div class="row">
+                        <input type="hidden" name="access_key" value="15d220f8-05e6-482c-82b6-338db7ddf1e3">
                         <div class="col-md-12 col-lg-6">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" name="fname">
                         </div>
                         <div class="col-md-12 col-lg-6">
                     
-                            <input type="text" placeholder="Last Name"><br>
+                            <input type="text" placeholder="Last Name" name="lname"><br>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
-                            <input type="text" placeholder="Mobile No.">
+                            <input type="number" placeholder="Mobile No." name="number">
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <input type="email" placeholder="Email"><br>
+                            <input type="email" placeholder="Email" name="email"><br>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
-                            <textarea name="" id="" cols="" rows="16" placeholder="Your Message..."></textarea><br>
+                            <textarea name="message" id="" cols="" rows="16" placeholder="Your Message..."></textarea><br>
                             <button class="btn btn-primary">Send Message</button>
                         </div>
                     </div>
