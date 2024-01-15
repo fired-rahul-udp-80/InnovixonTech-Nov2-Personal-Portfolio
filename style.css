@@ -58,7 +58,7 @@ pop up box all coding
         transform:scale(1.01,1.01);
     }
     100%{
-          transform:scale(1.0001,1.0001);
+          transform:scale(1.00001,1.00001);
     }
  }
  .ln-div-page p{
