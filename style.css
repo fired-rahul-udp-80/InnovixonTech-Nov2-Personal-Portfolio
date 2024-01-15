@@ -54,10 +54,11 @@ pop up box all coding
  }
  @keyframes animate1{
     0%{
-        transform:scale(1.0001,1.0001);
+       
+        transform:scale(1.2,1.2);
     }
     100%{
-        transform:scale(1.2,1.2); 
+          transform:scale(1.0001,1.0001);
     }
  }
  .ln-div-page p{
