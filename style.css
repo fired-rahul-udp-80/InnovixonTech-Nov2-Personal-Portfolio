@@ -28,7 +28,7 @@ pop up box all coding
     display: flex;
     justify-content:center;
     align-items: center;
-    animation: animate1 4s linear infinite;
+    animation: animate1 2.5s linear infinite;
     
     z-index:3000;
  }
