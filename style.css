@@ -71,7 +71,7 @@ pop up box all coding
  }
  @media screen and (max-width:768px){
     .ln-div-page{
-        width:95%;
+        width:80%;
         padding:0 10px;
         row-gap:10px;
         font-size:15px;
