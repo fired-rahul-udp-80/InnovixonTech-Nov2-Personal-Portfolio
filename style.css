@@ -405,7 +405,7 @@ row-gap:30px;
     }
 }
 .section1 .img-part img{
-    width:450px;
+    width:350px;
     animation:animate 3s infinite linear;
     filter:drop-shadow(1px 4px 40px rgba(0,0,0,0.3));
 }
@@ -421,7 +421,7 @@ row-gap:30px;
         padding:15px 20px;
     }
     .section1 .img-part img{
-        width:380px;
+        width:280px;
     }
     .section1 .img-part{
         width:100%;
